@@ -1,7 +1,14 @@
-$navbar-default-bg: #404040;
-
+$navbar-default-bg: #000000;
+$navbar-default-link-color: #404040;
+$jumbotron-bg: #ffffff;
+$navbar-default-link-hover-color: #ffffff; 
+$navbar-default-brand-hover-color: #ffffff;
+$navbar-default-brand-color: #cccccc;
+$jumbotron-heading-color: #000000;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
 
 .center
 {
