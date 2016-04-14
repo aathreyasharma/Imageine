@@ -1,13 +1,20 @@
 $jumbotron-bg: #ffffff;
+$jumbotron-heading-color: #000000;
+
+$navbar-height: 40px;
 $navbar-default-bg: #000000;
+$navbar-default-brand-color: #cccccc;
+$navbar-default-brand-hover-color: #ffffff;
 $navbar-default-link-color: #999999;
 $navbar-default-link-hover-color: #ffffff; 
-$navbar-default-brand-hover-color: #ffffff;
-$navbar-default-brand-color: #cccccc;
-$jumbotron-heading-color: #000000;
+
+$panel-bg: #e9e9e9;
+
+$body-bg: #ffffff;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 
 
 .center
