@@ -1,4 +1,4 @@
-<%= render 'home/jumbo' unless user_signed_in? %>
+<%= render 'home/jumbo' %> <%# Add 'unless user_signed_in?' to make jumbotron invi after login%>
 
 <div id="pins" class="transitions-enabled">
   <% @pins.each do |pin| %>
@@ -7,7 +7,7 @@
       <div class="panel panel-default">
           <%= link_to image_tag(pin.image.url(:medium)), pin %><br/>
           <div class="panel-body">
-            <%= pin.description %><br/>
+            <q><%= pin.description %></q><br/>
             <strong><%= pin.user.name if pin.user %></strong><br/>
           </div>
             <% if pin.user == current_user %>

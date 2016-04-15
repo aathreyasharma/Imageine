@@ -7,10 +7,10 @@
        <div class="panel-heading center"><%= image_tag @pin.image.url(:medium) %></div>
        <div class="panel-body">
           
-          <%= @pin.description %><br/>
+          <q><%= @pin.description %></q><br/>
         
         
-        <%= @pin.user.name if @pin.user %> <br/>
+        <en><%= @pin.user.name if @pin.user %></en><br/>
         
         <% if @pin.user == current_user %>
           <%= link_to 'Edit', edit_pin_path(@pin) %> |

@@ -1,5 +1,5 @@
-$jumbotron-bg: #ffffff;
-$jumbotron-heading-color: #000000;
+$jumbotron-bg: #000000;
+$jumbotron-heading-color: #ffffff;
 
 $navbar-height: 40px;
 $navbar-default-bg: #000000;
@@ -8,9 +8,9 @@ $navbar-default-brand-hover-color: #ffffff;
 $navbar-default-link-color: #999999;
 $navbar-default-link-hover-color: #ffffff; 
 
-$panel-bg: #e9e9e9;
+$panel-bg: rgba(#fff, .5);
 
-$body-bg: #ffffff;
+$body-bg: rgba(#000, .5);
 
 
 @import "bootstrap-sprockets";
@@ -21,3 +21,12 @@ $body-bg: #ffffff;
 {
     text-align: center;
 }
+
+.right
+{
+    text-align: right;
+}
+
+q { quotes: '\201c' '\201d'; }
+q:before { description: open-quote; }
+q:after  { description: close-quote; }
