@@ -8,9 +8,19 @@ $navbar-default-brand-hover-color: #ffffff;
 $navbar-default-link-color: #999999;
 $navbar-default-link-hover-color: #ffffff; 
 
-$panel-bg: rgba(#fff, .5);
+$text-color: #ffffff;
+
+$panel-bg: #000000;
+$panel-footer-bg: #000000;
+$panel-text: #ffffff;
+$panel-default-heading-bg: #000000;
+$panel-default-link-color: #ffffff;
 
 $body-bg: rgba(#000, .5);
+
+$link-color: #ffffff;
+
+
 
 
 @import "bootstrap-sprockets";
@@ -27,6 +37,85 @@ $body-bg: rgba(#000, .5);
     text-align: right;
 }
 
-q { quotes: '\201c' '\201d'; }
-q:before { description: open-quote; }
-q:after  { description: close-quote; }
+
+
+blockquote {
+    background: #000000;
+    border-left: 5px solid #000000;
+    margin: 1.5em 10px;
+    padding: .4em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ffffff;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #ffffff;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display:inline;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+}
+
+
+#pins {
+  margin: 0 auto;
+  width: 100%;
+  .box {
+	  margin: 10px;
+	  width: 300px;
+	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	  border-radius: 100px;
+	  text-align: center;
+	  img {
+	  	max-width: 100%;
+	  	height: auto;
+	  }
+	  h2 {
+	  	font-size: 22px;
+	  	margin: 0;
+	  	padding: 25px 10px;
+	  	a {
+				color: #474747;
+	  	}
+	  }
+	  .user {
+	  	font-size: 20px;
+	  	border-top: 1px solid #EAEAEA;
+			padding: 15px;
+			margin: 0;
+	  }
+	}
+}
+
+#edit_page {
+	.current_image {
+		img {
+			display: block;
+			margin: 20px 0;
+		}
+	}
+}
+
+
+textarea {
+	min-height: 250px;
+}
