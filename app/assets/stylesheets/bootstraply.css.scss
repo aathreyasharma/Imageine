@@ -88,18 +88,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   .box {
 	  margin: 10px;
-	  width: 300px;
-	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  border-radius: 100px;
+	  width: 250px;
+	  
+	  border-radius: 7px;
 	  text-align: center;
 	  img {
 	  	max-width: 100%;
 	  	height: auto;
 	  }
 	  h2 {
-	  	font-size: 22px;
-	  	margin: 0;
-	  	padding: 25px 10px;
+	  	font-size: auto;
+	  	margin: auto;
+	  	padding: auto;
 	  	a {
 				color: #474747;
 	  	}

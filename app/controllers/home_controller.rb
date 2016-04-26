@@ -4,4 +4,8 @@ class HomeController < ApplicationController
   
   def About
   end
+  
+  def MyProfile
+  end
+
 end
