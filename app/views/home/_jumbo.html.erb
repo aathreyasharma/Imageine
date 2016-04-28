@@ -3,13 +3,14 @@
     <p>Shoot. Quote.</p>
      <% if user_signed_in? %>
                   <%= link_to 'Add Pins', new_pin_path, class: 'btn btn-primary' %>
-                  <%= link_to 'List Pins', pins_path, class: 'btn btn-default' %> <%# Add '=' to make link visible %>
+                  <%= link_to 'List Pins', pins_path, class: 'btn btn-default' %><br/><br/> <%# Add '=' to make link visible %>
+                     <h2>Welcome <strong><%= current_user.name %></strong></h2>
                   <% link_to 'Edit Profile', edit_user_registration_path,class: 'btn btn-primary' %>
                   <% link_to 'Log out', destroy_user_session_path, class: 'btn btn-default' %>
-                
+
      <% else %>
         <%= link_to 'Login', new_user_session_path, class: 'btn btn-default' %>
-        
+
         <%= link_to 'Join', new_user_registration_path, class: 'btn btn-primary' %>
     <% end %>
 </div>
