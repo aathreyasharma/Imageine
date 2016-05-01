@@ -17,7 +17,11 @@ $panel-default-heading-bg: #000000;
 $panel-default-link-color: #ffffff;
 $panel-inner-border: #ffffff;
 
-$body-bg: rgba(#000, .5);
+
+
+
+
+
 
 $link-color: #ffffff;
 
@@ -28,11 +32,17 @@ $pagination-active-bg: #000000;
 $pagination-active-border: #ffffff;
 $pagination-hover-color: #333333;
 
+$label-default-bg: #8c8c8c;
 
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+	background-image:url('/images/abs.jpg');
+	background-repeat: repeat-x;
+	background-size: cover;
+}
 
 .center
 {
@@ -90,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 	  margin: 10px;
 	  width: 250px;
 
-	  border-radius: 7px;
+	  border-radius: 0px;
 	  text-align: center;
 	  img {
 	  	max-width: 100%;
@@ -124,5 +134,5 @@ h1, h2, h3, h4, h5, h6 {
 
 
 textarea {
-	min-height: 250px;
+	min-height: 100px;
 }

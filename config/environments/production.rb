@@ -28,6 +28,12 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
+  # Disable Rails's static asset server (Apache or nginx will already do this)
+  config.serve_static_assets = false
+
+  # Compress JavaScripts and CSS
+  config.assets.compress = true
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
@@ -76,11 +82,11 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  
-  
+
+
   # Added as per devise installation instructions
   config.action_mailer.default_url_options = { host: 'imageine.herokuapp.com/'}
-  
+
   config.paperclip_defaults = {
   :storage => :s3,
    s3_region: 'us-west-2',
@@ -90,5 +96,5 @@ Rails.application.configure do
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
-  
+
 end

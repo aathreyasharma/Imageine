@@ -2,9 +2,9 @@ class PinsController < ApplicationController
   before_action :find_pin, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :authenticate_user!, except: [:index, :show]
   before_action :correct_user, only: [:edit, :update, :destroy]
-  
+
   respond_to :html
-  
+
   def index
     @pins = Pin.all.order("created_at DESC").paginate(:page => params[:page], :per_page => 10)
   end
@@ -22,13 +22,13 @@ class PinsController < ApplicationController
   def create
     @pin = current_user.pins.build(pin_params)
     if @pin.save
-      redirect_to @pin, notice: 'Pin was successfully created.' 
+      redirect_to @pin, notice: 'Pin was successfully created.'
     else
       render action: 'new'
     end
   end
-   
- 
+
+
 
 def update
     if @pin.update(pin_params)
@@ -36,9 +36,9 @@ def update
     else
         render action: 'edit'
     end
-end 
-        
-    
+end
+
+
 
 def destroy
     @pin.destroy
@@ -49,7 +49,7 @@ def upvote
   @pin.upvote_by current_user
   redirect_to :back
 end
-  
+
 
   private
     def find_pin

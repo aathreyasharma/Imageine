@@ -1,20 +1,8 @@
-<div class="panel panel-default">
-  <div class="panel-heading"><h2>My Profile</div>
-  <div class="panel-body">
+<div class="panel panel-default" >
+    <div class="panel-heading center"><h1>My Profile</h1></div>
+    <div class="panel-body center">
+         <h4>Name <span class="label label-default"><%= current_user.name %></span></h4><br/>
+         <h4>Email <span class="label label-default"><%= current_user.email %></span></h4><br/>
 
-
-
-
-  <div class="form-group">
-       <%= f.label :name %>
-       <%= f.text_field :name, class: "form-control", :autofocus => true %>
     </div>
-
-  <div class="form-group">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, class: 'form-control' %>
-  </div>
-
-
-  </div>
 </div>
