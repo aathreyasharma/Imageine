@@ -1,12 +1,12 @@
 <div id="pins" class="box">
         <div class="panel panel-default">
-            <div class="panel-heading "><%= image_tag @pin.image.url %></div>
+            <div class="panel-heading "><%= image_tag @pin.image.url%></div>
                 <div class="panel-body center">
                     <blockquote><%= @pin.description %><t></blockquote>
                 </div>
                     <div class="panel-footer">
                         By:
-                        <strong><%= @pin.user.name %></strong>
+                            <%= @pin.user.name %>
                             <div class="btn-group pull-right">
                                 <%= link_to like_pin_path(@pin), method: :put do %>
                                         <span class="glyphicon glyphicon-heart "></span>

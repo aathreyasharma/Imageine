@@ -39,19 +39,29 @@ $label-default-bg: #8c8c8c;
 @import "bootstrap";
 
 body {
-	background-image:url('/images/abs.jpg');
+	background-image:url('/images/104509.jpg');
 	background-repeat: repeat-x;
+
 	background-size: cover;
 }
 
-.center
-{
+.center {
     text-align: center;
 }
 
-.right
-{
+
+.right {
     text-align: right;
+}
+
+
+.italic {
+	font-style: italic;
+}
+
+
+.oblique {
+	font-style: oblique;
 }
 
 

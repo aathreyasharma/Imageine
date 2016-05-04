@@ -22,7 +22,7 @@
 
           <% if user_signed_in? %>
              <li><%= link_to 'Add Pins', new_pin_path %></li>
-             <li><%= link_to 'List Pins', pins_path %></li>
+             <li><% link_to 'List Pins', pins_path %></li>
              <li><%= link_to 'Edit Profile', edit_user_registration_path%></li>
 
              <li><%= link_to 'My Profile', home_myprofile_path %></li>
