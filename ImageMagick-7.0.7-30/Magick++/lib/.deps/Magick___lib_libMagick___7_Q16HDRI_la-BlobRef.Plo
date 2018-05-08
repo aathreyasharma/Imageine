@@ -1,0 +1,555 @@
+Magick++/lib/Magick___lib_libMagick___7_Q16HDRI_la-BlobRef.lo: \
+ Magick++/lib/BlobRef.cpp /usr/include/stdc-predef.h \
+ Magick++/lib/Magick++/Include.h MagickCore/magick-config.h \
+ MagickCore/magick-baseconfig.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-amazon-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-amazon-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/bits/timex.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ MagickCore/MagickCore.h MagickCore/method-attribute.h \
+ MagickCore/magick-type.h MagickCore/animate.h MagickCore/annotate.h \
+ MagickCore/draw.h MagickCore/geometry.h MagickCore/image.h \
+ MagickCore/blob.h MagickCore/stream.h MagickCore/pixel.h \
+ MagickCore/colorspace.h MagickCore/cache-view.h MagickCore/color.h \
+ MagickCore/exception.h MagickCore/semaphore.h MagickCore/composite.h \
+ MagickCore/compress.h MagickCore/effect.h MagickCore/morphology.h \
+ MagickCore/layer.h MagickCore/locale_.h MagickCore/linked-list.h \
+ MagickCore/monitor.h MagickCore/profile.h MagickCore/string_.h \
+ MagickCore/quantum.h MagickCore/resample.h MagickCore/resize.h \
+ MagickCore/timer.h MagickCore/type.h MagickCore/artifact.h \
+ MagickCore/attribute.h MagickCore/cache.h MagickCore/channel.h \
+ MagickCore/cipher.h MagickCore/client.h MagickCore/coder.h \
+ MagickCore/colormap.h MagickCore/compare.h MagickCore/configure.h \
+ MagickCore/constitute.h MagickCore/decorate.h MagickCore/delegate.h \
+ MagickCore/deprecate.h MagickCore/magick.h MagickCore/display.h \
+ MagickCore/distort.h MagickCore/distribute-cache.h MagickCore/enhance.h \
+ MagickCore/feature.h MagickCore/fourier.h MagickCore/fx.h \
+ MagickCore/gem.h MagickCore/random_.h MagickCore/histogram.h \
+ MagickCore/identify.h MagickCore/image-view.h MagickCore/list.h \
+ MagickCore/log.h MagickCore/magic.h MagickCore/matrix.h \
+ MagickCore/memory_.h MagickCore/module.h MagickCore/version.h \
+ MagickCore/mime.h MagickCore/montage.h MagickCore/opencl.h \
+ MagickCore/option.h MagickCore/paint.h MagickCore/pixel-accessor.h \
+ /usr/include/assert.h MagickCore/policy.h MagickCore/prepress.h \
+ MagickCore/property.h MagickCore/quantize.h MagickCore/registry.h \
+ MagickCore/resource_.h MagickCore/segment.h MagickCore/shear.h \
+ MagickCore/signature.h MagickCore/splay-tree.h MagickCore/static.h \
+ MagickCore/statistic.h MagickCore/token.h MagickCore/transform.h \
+ MagickCore/threshold.h MagickCore/utility.h MagickCore/vision.h \
+ MagickCore/xml-tree.h MagickCore/xwindow.h MagickWand/MagickWand.h \
+ MagickWand/method-attribute.h MagickWand/animate.h MagickWand/compare.h \
+ MagickWand/composite.h MagickWand/conjure.h MagickWand/convert.h \
+ MagickWand/deprecate.h MagickWand/pixel-wand.h MagickWand/display.h \
+ MagickWand/drawing-wand.h MagickWand/identify.h MagickWand/import.h \
+ MagickWand/wandcli.h MagickWand/operation.h MagickWand/magick-cli.h \
+ MagickWand/magick-property.h MagickWand/magick-image.h \
+ MagickWand/mogrify.h MagickWand/montage.h MagickWand/pixel-iterator.h \
+ MagickWand/stream.h MagickWand/wand-view.h \
+ Magick++/lib/Magick++/BlobRef.h Magick++/lib/Magick++/Include.h \
+ Magick++/lib/Magick++/Thread.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h Magick++/lib/Magick++/Blob.h \
+ /usr/include/c++/4.8.5/string \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++config.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.8.5/bits/stringfwd.h \
+ /usr/include/c++/4.8.5/bits/memoryfwd.h \
+ /usr/include/c++/4.8.5/bits/char_traits.h \
+ /usr/include/c++/4.8.5/bits/stl_algobase.h \
+ /usr/include/c++/4.8.5/bits/functexcept.h \
+ /usr/include/c++/4.8.5/bits/exception_defines.h \
+ /usr/include/c++/4.8.5/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8.5/ext/type_traits.h \
+ /usr/include/c++/4.8.5/ext/numeric_traits.h \
+ /usr/include/c++/4.8.5/bits/stl_pair.h \
+ /usr/include/c++/4.8.5/bits/move.h \
+ /usr/include/c++/4.8.5/bits/concept_check.h \
+ /usr/include/c++/4.8.5/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8.5/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8.5/debug/debug.h \
+ /usr/include/c++/4.8.5/bits/stl_iterator.h \
+ /usr/include/c++/4.8.5/bits/postypes.h /usr/include/c++/4.8.5/cwchar \
+ /usr/include/bits/wchar.h /usr/include/c++/4.8.5/bits/allocator.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8.5/ext/new_allocator.h /usr/include/c++/4.8.5/new \
+ /usr/include/c++/4.8.5/exception \
+ /usr/include/c++/4.8.5/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8.5/bits/localefwd.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++locale.h \
+ /usr/include/c++/4.8.5/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/4.8.5/iosfwd \
+ /usr/include/c++/4.8.5/cctype /usr/include/ctype.h \
+ /usr/include/c++/4.8.5/bits/ostream_insert.h \
+ /usr/include/c++/4.8.5/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8.5/bits/stl_function.h \
+ /usr/include/c++/4.8.5/backward/binders.h \
+ /usr/include/c++/4.8.5/bits/range_access.h \
+ /usr/include/c++/4.8.5/bits/basic_string.h \
+ /usr/include/c++/4.8.5/ext/atomicity.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/gthr.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/gthr-default.h \
+ /usr/include/c++/4.8.5/x86_64-amazon-linux/bits/atomic_word.h \
+ /usr/include/c++/4.8.5/bits/basic_string.tcc \
+ Magick++/lib/Magick++/Exception.h Magick++/lib/Magick++/Thread.h \
+ /usr/include/string.h
+
+/usr/include/stdc-predef.h:
+
+Magick++/lib/Magick++/Include.h:
+
+MagickCore/magick-config.h:
+
+MagickCore/magick-baseconfig.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-amazon-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-amazon-linux/4.8.5/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+MagickCore/MagickCore.h:
+
+MagickCore/method-attribute.h:
+
+MagickCore/magick-type.h:
+
+MagickCore/animate.h:
+
+MagickCore/annotate.h:
+
+MagickCore/draw.h:
+
+MagickCore/geometry.h:
+
+MagickCore/image.h:
+
+MagickCore/blob.h:
+
+MagickCore/stream.h:
+
+MagickCore/pixel.h:
+
+MagickCore/colorspace.h:
+
+MagickCore/cache-view.h:
+
+MagickCore/color.h:
+
+MagickCore/exception.h:
+
+MagickCore/semaphore.h:
+
+MagickCore/composite.h:
+
+MagickCore/compress.h:
+
+MagickCore/effect.h:
+
+MagickCore/morphology.h:
+
+MagickCore/layer.h:
+
+MagickCore/locale_.h:
+
+MagickCore/linked-list.h:
+
+MagickCore/monitor.h:
+
+MagickCore/profile.h:
+
+MagickCore/string_.h:
+
+MagickCore/quantum.h:
+
+MagickCore/resample.h:
+
+MagickCore/resize.h:
+
+MagickCore/timer.h:
+
+MagickCore/type.h:
+
+MagickCore/artifact.h:
+
+MagickCore/attribute.h:
+
+MagickCore/cache.h:
+
+MagickCore/channel.h:
+
+MagickCore/cipher.h:
+
+MagickCore/client.h:
+
+MagickCore/coder.h:
+
+MagickCore/colormap.h:
+
+MagickCore/compare.h:
+
+MagickCore/configure.h:
+
+MagickCore/constitute.h:
+
+MagickCore/decorate.h:
+
+MagickCore/delegate.h:
+
+MagickCore/deprecate.h:
+
+MagickCore/magick.h:
+
+MagickCore/display.h:
+
+MagickCore/distort.h:
+
+MagickCore/distribute-cache.h:
+
+MagickCore/enhance.h:
+
+MagickCore/feature.h:
+
+MagickCore/fourier.h:
+
+MagickCore/fx.h:
+
+MagickCore/gem.h:
+
+MagickCore/random_.h:
+
+MagickCore/histogram.h:
+
+MagickCore/identify.h:
+
+MagickCore/image-view.h:
+
+MagickCore/list.h:
+
+MagickCore/log.h:
+
+MagickCore/magic.h:
+
+MagickCore/matrix.h:
+
+MagickCore/memory_.h:
+
+MagickCore/module.h:
+
+MagickCore/version.h:
+
+MagickCore/mime.h:
+
+MagickCore/montage.h:
+
+MagickCore/opencl.h:
+
+MagickCore/option.h:
+
+MagickCore/paint.h:
+
+MagickCore/pixel-accessor.h:
+
+/usr/include/assert.h:
+
+MagickCore/policy.h:
+
+MagickCore/prepress.h:
+
+MagickCore/property.h:
+
+MagickCore/quantize.h:
+
+MagickCore/registry.h:
+
+MagickCore/resource_.h:
+
+MagickCore/segment.h:
+
+MagickCore/shear.h:
+
+MagickCore/signature.h:
+
+MagickCore/splay-tree.h:
+
+MagickCore/static.h:
+
+MagickCore/statistic.h:
+
+MagickCore/token.h:
+
+MagickCore/transform.h:
+
+MagickCore/threshold.h:
+
+MagickCore/utility.h:
+
+MagickCore/vision.h:
+
+MagickCore/xml-tree.h:
+
+MagickCore/xwindow.h:
+
+MagickWand/MagickWand.h:
+
+MagickWand/method-attribute.h:
+
+MagickWand/animate.h:
+
+MagickWand/compare.h:
+
+MagickWand/composite.h:
+
+MagickWand/conjure.h:
+
+MagickWand/convert.h:
+
+MagickWand/deprecate.h:
+
+MagickWand/pixel-wand.h:
+
+MagickWand/display.h:
+
+MagickWand/drawing-wand.h:
+
+MagickWand/identify.h:
+
+MagickWand/import.h:
+
+MagickWand/wandcli.h:
+
+MagickWand/operation.h:
+
+MagickWand/magick-cli.h:
+
+MagickWand/magick-property.h:
+
+MagickWand/magick-image.h:
+
+MagickWand/mogrify.h:
+
+MagickWand/montage.h:
+
+MagickWand/pixel-iterator.h:
+
+MagickWand/stream.h:
+
+MagickWand/wand-view.h:
+
+Magick++/lib/Magick++/BlobRef.h:
+
+Magick++/lib/Magick++/Include.h:
+
+Magick++/lib/Magick++/Thread.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+Magick++/lib/Magick++/Blob.h:
+
+/usr/include/c++/4.8.5/string:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.8.5/bits/stringfwd.h:
+
+/usr/include/c++/4.8.5/bits/memoryfwd.h:
+
+/usr/include/c++/4.8.5/bits/char_traits.h:
+
+/usr/include/c++/4.8.5/bits/stl_algobase.h:
+
+/usr/include/c++/4.8.5/bits/functexcept.h:
+
+/usr/include/c++/4.8.5/bits/exception_defines.h:
+
+/usr/include/c++/4.8.5/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8.5/ext/type_traits.h:
+
+/usr/include/c++/4.8.5/ext/numeric_traits.h:
+
+/usr/include/c++/4.8.5/bits/stl_pair.h:
+
+/usr/include/c++/4.8.5/bits/move.h:
+
+/usr/include/c++/4.8.5/bits/concept_check.h:
+
+/usr/include/c++/4.8.5/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8.5/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8.5/debug/debug.h:
+
+/usr/include/c++/4.8.5/bits/stl_iterator.h:
+
+/usr/include/c++/4.8.5/bits/postypes.h:
+
+/usr/include/c++/4.8.5/cwchar:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/c++/4.8.5/bits/allocator.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8.5/ext/new_allocator.h:
+
+/usr/include/c++/4.8.5/new:
+
+/usr/include/c++/4.8.5/exception:
+
+/usr/include/c++/4.8.5/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8.5/bits/localefwd.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/c++locale.h:
+
+/usr/include/c++/4.8.5/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.8.5/iosfwd:
+
+/usr/include/c++/4.8.5/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.8.5/bits/ostream_insert.h:
+
+/usr/include/c++/4.8.5/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8.5/bits/stl_function.h:
+
+/usr/include/c++/4.8.5/backward/binders.h:
+
+/usr/include/c++/4.8.5/bits/range_access.h:
+
+/usr/include/c++/4.8.5/bits/basic_string.h:
+
+/usr/include/c++/4.8.5/ext/atomicity.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/gthr.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/gthr-default.h:
+
+/usr/include/c++/4.8.5/x86_64-amazon-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.8.5/bits/basic_string.tcc:
+
+Magick++/lib/Magick++/Exception.h:
+
+Magick++/lib/Magick++/Thread.h:
+
+/usr/include/string.h:
